@@ -103,11 +103,10 @@ analytics:
 
 # Site Author
 author:
-  name: 'Lee.SeungHun'
+  name: '이승훈'
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: 'Software Engineer'
   location: 'Republic of Korea'
-  email: 'ac2dia@gmail.com'
   links:
     - label: 'Email'
       icon: 'fas fa-fw fa-envelope-square'
