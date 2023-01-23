@@ -15,12 +15,12 @@
 minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: 'en-US'
-title: '마음 먹었을때 하기'
+locale: 'ko-KR'
+title: '평생 공부 블로그 : Today I Learned 🌙'
 title_separator: '-'
 subtitle: # site tagline that appears below site title in masthead
-name: 'Lee.SeungHun'
-description: 'An amazing website.'
+name: '이승훈 🎃'
+description: '공부 & 취미 블로그'
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,17 +103,14 @@ analytics:
 
 # Site Author
 author:
-  name: '이승훈'
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: 'Software Engineer'
+  name: '이승훈 🎃'
+  avatar: # "/assets/images/photo.jpg"
+  bio: '반갑습니다 :)'
   location: 'Republic of Korea'
   links:
     - label: 'Email'
       icon: 'fas fa-fw fa-envelope-square'
       url: 'ac2dia@gmail.com'
-    - label: 'Website'
-      icon: 'fas fa-fw fa-link'
-      url: 'https://ac2dia.github.io'
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
       url: 'https://github.com/ac2dia'
