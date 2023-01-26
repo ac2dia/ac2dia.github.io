@@ -38,6 +38,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "OpenSource" %}
+                        <li><a href="/categories/opensource" class="">오픈소스 정리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         </li>
     </ul>
 </nav>
