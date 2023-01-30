@@ -47,6 +47,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Virtual" %}
+                        <li><a href="/categories/virtual" class="">가상화 정리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "DesignPattern" %}
                         <li><a href="/categories/design_pattern" class="">디자인 패턴 정리 ({{category[1].size}})</a></li>
                     {% endif %}
